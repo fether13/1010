@@ -21,6 +21,7 @@ void print_board(int board[LEN][LEN], piece p1, piece p2, piece p3, int score) {
             else
                 printf("[#]");
     }
+    printp(p1, p2, p3);
 }
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
