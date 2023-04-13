@@ -45,7 +45,6 @@ int main() {
 
         ///////////////////////////////////////////////// GAME OVER CHECK
         for(i=0; i<3 && (arr[i]->count==0 || arr[i]->placed==1); i++);
-        printf("\ni:%d", i);
         if(i==3) {
             playing=0;
             print_board(board, p1, p2, p3, score);
